@@ -4,7 +4,7 @@
  * Delete a user
  */
 
-require "config.php";
+require "./config/config.php";
 require "common.php";
 
 if (isset($_GET["id"])) {

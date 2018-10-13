@@ -6,7 +6,7 @@
  *
  */
 
-require "config.php";
+require "./config/config.php";
 
 try {
     $connection = new PDO("mysql:host=$host", $username, $password, $options);

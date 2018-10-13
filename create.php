@@ -6,7 +6,7 @@
  *
  */
 
-require "config.php";
+require "./config/config.php";
 require "common.php";
 
 if (isset($_POST['submit'])) {

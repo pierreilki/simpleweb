@@ -5,10 +5,10 @@
  *
  */
 
-$host       = getenv('BDD_HOST');
-$username   = getenv('BDD_USERNAME');
-$password   = getenv('BDD_PASSWORD');
-$dbname     = getenv('BDD_DATABASE');
+$host       = "10.100.20.53";
+$username   = "simpleweb";
+$password   = "mysecretpass";
+$dbname     = "simpleweb";
 $dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
